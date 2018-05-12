@@ -48,11 +48,11 @@ content {
     height: 20%;
     margin-left: auto;
     margin-top: auto;
-    pading: 0;
+    padding: 0;
     outline: none; }
   content h1 {
     color: red;
-    diplay: flex;
+    display: flex;
     margin-top: 5%;
     margin-bottom: 0; }
   content .imgg {

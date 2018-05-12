@@ -40,8 +40,7 @@
 var i = 0;
 for (i = 0; i < Persons.length; i++){
 document.getElementById("cont").innerHTML += "<div>" + " <img src = \" "+Persons[i].myPhoto +" \" > " +"<p>"+" Name: "+"<b>"+ Persons[i].name +"</b>"+"<br>"+"<br>"+" surname: "+"<b>"+ Persons[i].surname +'</b>' + "<br>" +"<br>"+" Age: "+"<b>"+ Persons[i].age +"</b>"+ "</p>" + " <input class=\""+i+"-"+i+"\" type=\"submit\" value=\"Like\">" +"<h1 class = \" "+ i +"\" class =\"heading\">"+ Persons[i].likes +"</h1>"+ "<img class=\"imgg\" src=\"CR5/like.png\">" + "</div>" ;
-
-
+// only one time 
 		$(document).ready(function(){
 		var n = 0;
 	 	$(".0-0").click(function(){
