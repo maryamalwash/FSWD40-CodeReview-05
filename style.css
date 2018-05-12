@@ -1,0 +1,69 @@
+body {
+  border: 1px solid gray; }
+
+header {
+  background-color: #822C91;
+  padding: 3%;
+  text-align: center; }
+
+.heroimage {
+  padding: 5vw;
+  background: linear-gradient(rgba(86, 29, 96, 0.3), rgba(86, 29, 96, 0.5)), url(CR5/computer-1245714_1280.jpg);
+  background-size: cover;
+  font-family: "Crete Round", serif;
+  font-size: 5vw;
+  color: white;
+  text-align: center; }
+
+footer {
+  padding: 3%;
+  text-align: center; }
+
+content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  content div {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #D5C1D8;
+    width: 40%;
+    margin: 2%;
+    padding: 1%;
+    font-family: "Roboto", sans-serif; }
+  content p {
+    width: 60%;
+    margin: 1%;
+    font-size: 2vw; }
+  content img {
+    width: 35%;
+    height: 14vw;
+    margin: 1%; }
+  content input {
+    font-size: 3vw;
+    background-color: #A5D6CF;
+    border: 2px solid gray;
+    border-radius: 8px;
+    width: 30%;
+    height: 20%;
+    margin-left: auto;
+    margin-top: auto;
+    pading: 0;
+    outline: none; }
+  content h1 {
+    color: red;
+    diplay: flex;
+    margin-top: 5%;
+    margin-bottom: 0; }
+  content .imgg {
+    margin-top: 10%;
+    width: 4vw;
+    height: 3.5vw; }
+  content .imgg:hover {
+    transform: scaleY(1.5); }
+  content h1:hover {
+    transform: scaleY(1.5); }
+  content input:hover {
+    transform: scaleY(1.5); }
+
+/*# sourceMappingURL=style.css.map */
